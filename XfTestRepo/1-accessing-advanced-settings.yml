@@ -11,5 +11,39 @@ metadata:
   ms.prod: learning-d365 
   ROBOTS: NOINDEX 
 durationInMinutes: 5 
+azureSandbox: true
+interactive: bash
+labId: 1
+labModal: true
+metadata:
+  description: Accessing advanced settings 
+  title: Accessing advanced settings 
+quiz: 
+  questions:
+    - choices:
+        - content: (md)
+          explanation: (md)
+          isCorrect: true
+        - content: (md)
+          explanation: (md)
+          isCorrect: false
+      content: (md)
+  title: (md) 
+tasks:
+  - action: exists
+    environment: azure
+    hint: (md)
+    azure: 
+      resource: 
+        type: xx
+        name: xx
+        location: xx
+        tags: xx
+        sku: xx
+        kind: xx
+        properties: xx
+        plan: xx
+        managedBy: xx
+    
 content: | 
  [!include[](includes/1-accessing-advanced-settings.md)] 
