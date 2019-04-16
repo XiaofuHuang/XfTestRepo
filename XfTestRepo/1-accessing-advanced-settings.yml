@@ -11,7 +11,8 @@ authors:
   - displayName: author2
     id: 2
 codeUrl: https://github.com
-# description: (.md)
+description:  | 
+  [!include[](description.md)] 
 languages:
   - en-us
 name: test name
@@ -20,8 +21,8 @@ products:
   - products1
   - products2
 zipUrl: https://github.com
-content: | 
-  [!include[](index.md)] 
+# content: | 
+#  [!include[](index.md)] 
 # durationInMinutes: 5 
 # azureSandbox: true
 # interactive: bash
