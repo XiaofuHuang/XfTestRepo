@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+### YamlMime:Sample
 uid: XfTestRepo.get-started-advanced-configuration.1-accessing-advanced-settings 
 title: Accessing advanced settings
 metadata: 
@@ -10,40 +10,56 @@ metadata:
   ms.topic: interactive-tutorial 
   ms.prod: learning-d365 
   ROBOTS: NOINDEX 
-durationInMinutes: 5 
-azureSandbox: true
-interactive: bash
-labId: 1
-labModal: true
-metadata:
-  description: Accessing advanced settings 
-  title: Accessing advanced settings 
-quiz: 
-  questions:
-    - choices:
-        - content: (md)
-          explanation: (md)
-          isCorrect: true
-        - content: (md)
-          explanation: (md)
-          isCorrect: false
-      content: (md)
-  title: (md) 
-tasks:
-  - action: exists
-    environment: azure
-    hint: (md)
-    azure: 
-      resource: 
-        type: xx
-        name: xx
-        location: xx
-        tags: xx
-        sku: xx
-        kind: xx
-        properties: xx
-        plan: xx
-        managedBy: xx
+azureDeployPath: Microsoft.Sample
+authors: 
+  - displayName: author1
+    id: 1
+  - displayName: author2
+    id: 2
+codeUrl: https://github.com
+# description: (.md)
+languages:
+  - en-us
+name: test name
+# summary: (.md)
+products:
+  - products1
+  - products2
+zipUrl: https://github.com
+# durationInMinutes: 5 
+# azureSandbox: true
+# interactive: bash
+# labId: 1
+# labModal: true
+# metadata:
+#   description: Accessing advanced settings 
+#   title: Accessing advanced settings 
+# quiz: 
+#   questions:
+#     - choices:
+#         - content: (md)
+#           explanation: (md)
+#           isCorrect: true
+#         - content: (md)
+#           explanation: (md)
+#           isCorrect: false
+#       content: (md)
+#   title: (md) 
+# tasks:
+#   - action: exists
+#     environment: azure
+#     hint: (md)
+#     azure: 
+#       resource: 
+#         type: xx
+#         name: xx
+#         location: xx
+#         tags: xx
+#         sku: xx
+#         kind: xx
+#         properties: xx
+#         plan: xx
+#         managedBy: xx
     
-content: | 
- [!include[](includes/1-accessing-advanced-settings.md)] 
+# content: | 
+#  [!include[](includes/1-accessing-advanced-settings.md)] 
