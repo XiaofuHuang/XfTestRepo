@@ -3,12 +3,7 @@ uid: XfTestRepo.get-started-advanced-configuration.1-accessing-advanced-settings
 metadata: 
   title: Accessing advanced settings 
   description: Accessing advanced settings 
-  ms.date: 1/23/2019 
   author: dbeasley 
-  ms.author: dbeasley 
-  ms.topic: interactive-tutorial 
-  ms.prod: learning-d365 
-  ROBOTS: NOINDEX 
 azureDeployPath: Microsoft.Sample
 authors: 
   - displayName: author1
@@ -25,6 +20,8 @@ products:
   - products1
   - products2
 zipUrl: https://github.com
+content: | 
+  [!include[](index.md)] 
 # durationInMinutes: 5 
 # azureSandbox: true
 # interactive: bash
