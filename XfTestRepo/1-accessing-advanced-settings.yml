@@ -10,7 +10,7 @@ authors:
     id: 1
   - displayName: author2
     id: 2
-codeUrl: https://github.com
+codeUrl: https://www.baidu.com
 description:  | 
   [!include[](description.md)] 
 languages:
