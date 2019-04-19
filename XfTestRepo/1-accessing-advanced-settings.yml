@@ -16,7 +16,8 @@ description:  |
 languages:
   - en-us
 name: test name
-# summary: (.md)
+summary:  | 
+  [!include[](summary.md)] 
 products:
   - products1
   - products2
