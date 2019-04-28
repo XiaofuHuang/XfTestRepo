@@ -3,22 +3,20 @@ uid: XfTestRepo.get-started-advanced-configuration.1-accessing-advanced-settings
 metadata: 
   title: Accessing advanced settings 
   description: Accessing advanced settings 
-  author: dbeasley 
-azureDeployPath: Microsoft.Sample
-authors: 
-  - displayName: author1
-    id: 1
-  - displayName: author2
-    id: 2
-codeUrl: https://www.baidu.com
-description:  | 
-  [!include[](description.md)] 
-languages:
-  - en-us
-name: test name
-summary:  | 
-  [!include[](summary.md)] 
-products:
-  - products1
-  - products2
-zipUrl: https://github.com
+  authors: 
+    - displayName: author1
+      id: 1
+    - displayName: author2
+      id: 2
+  codeUrl: https://www.bing.com
+  zipUrl: https://github.com
+  languages:
+    - c#
+    - .net
+  products:
+    - products1
+    - products2
+  azureDeployPath: Microsoft.Sample
+  name: name1
+  des: des1
+
