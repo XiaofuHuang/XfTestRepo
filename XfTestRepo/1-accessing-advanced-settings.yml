@@ -1,19 +1,19 @@
 ### YamlMime:Sample
 uid: XfTestRepo.get-started-advanced-configuration.1-accessing-advanced-settings 
 metadata: 
-  _name: Accessing advanced settings 
-  _description: Accessing advanced settings 
-  _authors: 
+  test_name: Accessing advanced settings 
+  test_description: Accessing advanced settings 
+  test_authors: 
     - displayName: author1
       id: 1
     - displayName: author2
       id: 2
   codeUrl: https://www.bing.com
   zipUrl: https://github.com
-  _languages:
+  test_languages:
     - c#
     - .net
-  _products:
+  test_products:
     - products1
     - products2
   azureDeployPath: Microsoft.Sample
