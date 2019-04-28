@@ -2,12 +2,7 @@
 uid: XfTestRepo.get-started-advanced-configuration.1-accessing-advanced-settings 
 metadata: 
   test_name: Accessing advanced settings 
-  test_description: Accessing advanced settings 
-  test_authors: 
-    - displayName: author1
-      id: 1
-    - displayName: author2
-      id: 2
+  test_description: Accessing advanced settings
   codeUrl: https://www.bing.com
   zipUrl: https://github.com
   test_languages:
