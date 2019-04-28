@@ -42,6 +42,7 @@
     "fileMetadata": {},
     "template": [],
     "dest": "XfTestRepo",
-    "markdownEngineName": "markdig"
+    "markdownEngineName": "markdig",
+    "exportRawModel": "true"
   }
 }
