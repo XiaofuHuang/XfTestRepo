@@ -1,8 +1,14 @@
 ### YamlMime:Sample
 uid: XfTestRepo.get-started-advanced-configuration.1-accessing-advanced-settings 
 metadata: 
-  test_name: Accessing advanced settings 
-  test_description: Accessing advanced settings description
+  name: Accessing advanced settings 
+  description: Accessing advanced settings description
+  languages:
+    - c#
+    - .net
+  products:
+    - products1
+    - products2  
 name: name1
 authors: 
   - displayName: author1
