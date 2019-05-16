@@ -1,5 +1,7 @@
 ### YamlMime:Sample
 uid: XfTestRepo.1-test-sample
+metadata: 
+  articleDate: 2017-03-04
 title: Sample 1
 authors: 
   - displayName: Xiaofu Huang
