@@ -22,4 +22,6 @@ products:
   - products 1
   - products 2  
 description: Description 1
+codeUrl: https://www.bing.com
+zipUrl: https://github.com
 
