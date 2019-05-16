@@ -2,10 +2,10 @@
 uid: XfTestRepo.1-test-sample
 title: Sample 1
 authors: 
-  - displayName: author1
-    id: 1
-  - displayName: author2
-    id: 2
+  - displayName: Xiaofu Huang
+    id: XiaofuHuang
+  - displayName: Jason Zhu
+    id: kimizhu
 languages:
   - c#
   - .net
