@@ -21,6 +21,6 @@ languages:
 products:
   - products 3
   - products 4  
-description: Description 1
+description: Description 2
 codeUrl: https://www.bing.com
 zipUrl: https://github.com
