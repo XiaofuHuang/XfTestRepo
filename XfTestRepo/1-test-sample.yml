@@ -13,7 +13,7 @@ products:
   - dotnet
   - windows
 content: | 
-  [!include[](discription.md)] 
+  [!include[](description.md)] 
 codeUrl: https://www.bing.com
 zipUrl: https://github.com
 
