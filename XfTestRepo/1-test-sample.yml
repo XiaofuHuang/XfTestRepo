@@ -1,0 +1,25 @@
+### YamlMime:Sample
+uid: XfTestRepo.1-test-sample
+metadata: 
+  test_name: Test Sample 1
+  test_description: Test Sample 1 description
+  test_languages:
+    - test c#
+    - test .net
+  test_products:
+    - Test Sample Products 1
+    - Test Sample Products 2  
+name: Sample 1
+authors: 
+  - displayName: author1
+    id: 1
+  - displayName: author2
+    id: 2
+languages:
+  - c#
+  - .net
+products:
+  - products 1
+  - products 2  
+description: Description 1
+
