@@ -12,7 +12,8 @@ languages:
 products:
   - dotnet
   - windows
-content: Description 1
+content: | 
+  [!include[](discription.md)] 
 codeUrl: https://www.bing.com
 zipUrl: https://github.com
 
