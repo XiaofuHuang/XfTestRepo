@@ -9,7 +9,7 @@ authors:
   - displayName: Jason Zhu
     id: kimizhu
 languages:
-  - c#
+  - csharp
   - .net
 products:
   - dotnet
