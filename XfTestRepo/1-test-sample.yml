@@ -10,7 +10,7 @@ authors:
     id: kimizhu
 languages:
   - csharp
-  - .net
+  - python
 products:
   - dotnet
   - windows
