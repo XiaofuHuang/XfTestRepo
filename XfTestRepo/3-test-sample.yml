@@ -1,0 +1,19 @@
+### YamlMime:Sample
+uid: XfTestRepo.2-test-sample
+metadata: 
+  test_title: Sample Test Title 2
+title: Sample 2
+authors: 
+  - displayName: Xiaofu Huang
+    id: XiaofuHuang
+  - displayName: Jason Zhu
+    id: kimizhu
+languages:
+  - cpp
+products:
+  - windows
+content: | 
+  [!include[](description.md)] 
+codeUrl: https://www.bing.com
+zipUrl: https://github.com
+azureDeployPath: path2
