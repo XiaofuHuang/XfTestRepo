@@ -3,4 +3,4 @@
 This is first paragraph of xf description
 ## Second
 - Hello
-- World~
+- World.
