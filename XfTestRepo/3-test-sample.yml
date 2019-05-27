@@ -15,6 +15,6 @@ products:
   - windows
 content: | 
   [!include[](description.md)] 
-codeUrl: https://www.bing.com
-zipUrl: https://github.com
-azureDeployPath: path2
+codeUrl: https://www.bing.com/1
+zipUrl: https://github.com/1
+azureDeployPath: path3
