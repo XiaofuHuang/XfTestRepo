@@ -1,7 +1,7 @@
 ### YamlMime:Sample
-uid: XfTestRepo.3-test-sample
+uid: XfTestRepo.4-test-sample
 metadata: 
-  test_title: Sample Test Title 3
+  test_title: Sample Test Title 4
 name: Sample 4 name
 title: Sample 4 title
 authors: 
@@ -18,4 +18,4 @@ content: |
   [!include[](description.md)] 
 codeUrl: https://www.bing.com/1
 zipUrl: https://github.com/1
-azureDeployPath: path3
+azureDeployPath: path4
