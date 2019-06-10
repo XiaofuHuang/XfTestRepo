@@ -1,6 +1,7 @@
 ### YamlMime:Sample
 uid: XfTestRepo.2-test-sample
-metadata: 
+metadata:
+  ms.date: 09/13/2017
   test_title: Sample Test Title 2
 title: Sample 2 title
 authors: 
