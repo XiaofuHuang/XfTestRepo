@@ -2,6 +2,7 @@
 uid: XfTestRepo.1-test-sample
 metadata: 
   test_title: Sample Test Title 1
+  ms.date: 2017-03-09 00:00:00
 title: Sample 1 title
 authors: 
   - displayName: Xiaofu Huang
