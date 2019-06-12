@@ -11,6 +11,7 @@ summary: |
 cardDescription: This is the description that will show up on the Browse card. Make it short. If it's ommitted the summary will be used in it's place.
 levels:
 - beginner
+- intermediate
 skills:
 - none
 roles:
