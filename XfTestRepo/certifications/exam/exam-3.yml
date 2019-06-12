@@ -1,12 +1,12 @@
 ### YamlMime:Examination
-title: Exam Two
+title: 中文 Exam Two
 metadata:
-  title: Exam Two - Page Title
-  description: Exam Two - page description
+  title: 中文 Exam Two - Page Title
+  description: 中文 Exam Two - page description
 uid: exam.DP-400
 examDisplayName: DP-400
-summary: Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
-cardDescription: This is the description that will show up on the Browse card. Make it short.
+summary: 中文 Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+cardDescription: 中文 This is the description that will show up on the Browse card. Make it short.
 iconUrl: ./assets/Exam.svg
 pdfDownloadUrl: http://www.treehouseanimals.org/site/DocServer/catcareguide.pdf
 practiceTestUrl: http://www.treehouseanimals.org/site/DocServer/catcareguide.pdf
