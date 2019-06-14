@@ -44,7 +44,7 @@ paths:
 - uid: learn-bizapps.advanced-data-options-and-connectors
 pdfDownloadUrl: http://www.treehouseanimals.org/site/DocServer/catcareguide.pdf
 exams:
-- uid: exam.AZ-4001
+- uid: exam.AZ-40013
 resources:
 - href: https://www.bing.com
   title: Hello Bing
