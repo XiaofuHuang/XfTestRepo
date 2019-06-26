@@ -1,20 +1,22 @@
 ### YamlMime:Certification
-title: Mock sample Certification 1 Associate
+title: Update Mock sample Certification 1 Associate
 metadata:
-  title: Mock sample Certification 1 Associate
+  title: Update Mock sample Certification 1 Associate
   description: Update Sample Certification One - page description
   ms.date: 03/07/2018
 uid: certification.mock-certification-1
 iconUrl: ./assets/CertificationAssociate.svg
 summary: |
   Update Sample Azure DevOps professionals combine people, process, and technologies to continuously deliver valuable products and services that meet end user needs and business objectives.
-cardDescription: This is the sample description that will show up on the Browse card. Make it short. If it's ommitted the summary will be used in it's place.
+cardDescription: Update This is the sample description that will show up on the Browse card. Make it short. If it's ommitted the summary will be used in it's place.
 levels:
 - intermediate
+- beginner
 skills:
 - none
 roles:
 - developer
+- business-user
 products:
 - azure
 - azure-clis
@@ -41,6 +43,7 @@ paths:
 pdfDownloadUrl: http://www.treehouseanimals.org/site/DocServer/catcareguide.pdf
 exams:
 - uid: exam.AZ-4001
+- uid: exam.AZ-4002
 resources:
 - href: https://www.bing.com
   title: Hello Bing
