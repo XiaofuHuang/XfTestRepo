@@ -1,7 +1,7 @@
 ### YamlMime:Certification
-title: Update Mock sample Certification 1 Associate
+title: Mock sample Certification 1 Associate
 metadata:
-  title: Update Mock sample Certification 1 Associate
+  title: Mock sample Certification 1 Associate
   description: Update Sample Certification One - page description
   ms.date: 03/07/2018
 uid: certification.mock-certification-1
@@ -9,7 +9,7 @@ badgeUrl: ./assets/CertificationAssociate.svg
 iconUrl: ./assets/CertificationAssociate.svg
 summary: |
   Update Sample Azure DevOps professionals combine people, process, and technologies to continuously deliver valuable products and services that meet end user needs and business objectives.
-cardDescription: Update This is the sample description that will show up on the Browse card. Make it short. If it's ommitted the summary will be used in it's place.
+cardDescription: This is the sample description that will show up on the Browse card. Make it short. If it's ommitted the summary will be used in it's place.
 levels:
 - intermediate
 skills:
