@@ -5,7 +5,6 @@ metadata:
   description: Sample Certification One - page description
   ms.date: 03/09/2017
 uid: certification.mock-certification-2
-badgeUrl: ./assets/CertificationAssociate.svg
 iconUrl: ./assets/CertificationAssociate.svg
 summary: |
   Sample Azure DevOps professionals combine people, process, and technologies to continuously deliver valuable products and services that meet end user needs and business objectives.
