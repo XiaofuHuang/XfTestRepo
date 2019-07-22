@@ -19,5 +19,5 @@ content: |
   [!include[](description.md)] 
 codeUrl: https://www.bing.com
 zipUrl: https://github.com
-azureDeployPath: path1
+azureDeployPath: path1y
 
