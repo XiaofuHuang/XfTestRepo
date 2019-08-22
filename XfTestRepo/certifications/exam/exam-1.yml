@@ -12,8 +12,8 @@ pdfDownloadUrl: http://www.treehouseanimals.org/site/DocServer/catcareguide.pdf
 practiceTestUrl: http://www.treehouseanimals.org/site/DocServer/catcareguide.pdf
 scheduleExamUrl: http://www.treehouseanimals.org/site/DocServer/catcareguide.pdf
 locales:
-- English
-- German
+- en
+- de
 levels:
 - beginner
 skills:
