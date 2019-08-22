@@ -5,7 +5,10 @@ metadata:
   description: 'Course AI-100T01-A: Designing and Implementing an Azure AI Solution'
 uid: course.course-one
 courseNumber: 'AI-100T01-A'
-hoursToComplete: 72
+timeToComplete:
+    hours: 13
+    days: 2
+    weeks: 3
 iconUrl: /media/learn/certification/course.svg
 learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
 retirementDate: 03/29/2022
