@@ -9,6 +9,8 @@ hoursToComplete: 18
 iconUrl: /media/learn/certification/course.svg
 learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
 retirementDate: 03/27/2022
+products:
+- azure-key-vault
 locales:
 - en
 levels:
