@@ -5,10 +5,7 @@ metadata:
   description: 'Course AZ-203T04-A: Implement Azure security'
 uid: course.course-zero
 courseNumber: 'AZ-203T04-A'
-timeToComplete:
-    hours: 13
-    days: 2
-    weeks: 3
+hoursToComplete: 18
 iconUrl: /media/learn/certification/course.svg
 learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
 retirementDate: 03/27/2022
