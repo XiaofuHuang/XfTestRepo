@@ -9,6 +9,8 @@ hoursToComplete: 24
 iconUrl: /media/learn/certification/course.svg
 learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
 retirementDate: 03/29/2022
+products:
+- azure-app-service
 locales:
 - en
 levels:
