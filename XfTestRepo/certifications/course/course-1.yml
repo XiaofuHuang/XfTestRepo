@@ -17,7 +17,7 @@ levels:
 - beginner
 roles:
 - developer
-relatedExams:
+exams:
 - uid: exam.ai-100
 summary: |-
   An Azure AI engineer works with Data Engineers and Data Scientists to analyze requirements for AI cloud-based and hybrid AI solutions and implements solutions. They are aware of the various components that make up the Microsoft Azure AI portfolio and related open source frameworks and technologies. The engineer leverages their knowledge to recommend appropriate tools and technologies for a given solution. The engineer is aware of the available data storage options and uses their understanding of cost models, capacity, and best practices to architect and implement AI solutions.This course teaches the concepts of Azure AI engineering by presenting, and developing, a scenario that creates a customer support Bot that utilizes various tools and services in the Azure AI landscape like language understanding, QnA Maker, and various Azure Cognitive Services to implement language detection, text analytics, and computer vision.
