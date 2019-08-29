@@ -8,7 +8,7 @@ uid: certification.mock-certification-2
 iconUrl: ./assets/CertificationAssociate.svg
 summary: |
   Sample  Azure DevOps professionals combine people, process, and technologies to continuously deliver valuable products and services that meet end user needs and business objectives.
-subTitle: Update! This is the sample description that will show up on the Browse card. Make it short. If it's ommitted the summary will be used in it's place.
+subTitle: Update Again! This is the sample description that will show up on the Browse card. Make it short. If it's ommitted the summary will be used in it's place.
 levels:
 - beginner
 - intermediate
