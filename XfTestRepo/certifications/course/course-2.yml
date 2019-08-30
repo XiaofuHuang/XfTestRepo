@@ -1,0 +1,63 @@
+### YamlMime:Course
+title: Set up events and surveys in Dynamics 365 for Marketing
+metadata:
+  title: 'Course MB-220T02-A: Set up events and surveys in Dynamics 365 for Marketing'
+  description: 'Course MB-220T02-A: Set up events and surveys in Dynamics 365 for Marketing'
+uid: course.mb-220t02
+courseNumber: 'MB-220T02-A'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+skillsGained:
+- skill: Set up and manage event planning capabilities
+- skill: Create event messaging, customize the event portal and manage registrations and check ins
+- skill: Design, configure and distribute surveys
+- skill: Review and understand event and survey insights
+learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
+retirementDate: 07/23/2022
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+exams:
+- uid: exam.mb-220
+summary: |-
+  This course will focus on setting up, managing, and configuring the events and surveys within Dynamics 365 for Marketing.
+
+  #### Audience profile
+  This course is designed for IT or marketing professionals who want to learn how to leverage Dynamics 365 for Marketing for businesses.
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - An understanding of the basics of Dynamics 365 and knowledge of marketing principles, strategies and procedures
+outlineSection: |-
+  ### Module  1&#58; Events
+  In this module you will learn how to manage event planning and execution in Dynamics 365 for Marketing.
+  #### Lessons
+  - Manage event planning
+  - Manage event execution
+  After completing this module, you will be able to&#58;
+  - Create in-person and webinar events
+  - Set up event planning features such as sessions, speakers, event passes, waitlists, venues, and sponsors
+  - Create and manage recurring events
+  - Create custom registration fields
+  - Create event outbound messaging
+  - Set up and manage the event portal, registration and check-in functionality
+
+  ### Module  2&#58; Voice of the Customer
+  In this module you will review how to configure, design and distribute Voice of the Customer surveys in Dynamics 365 for Marketing.
+  #### Lessons
+  - Create surveys
+  After completing this module, you will be able to&#58;
+  - Create a reusable survey theme
+  - Create, design, preview and publish a survey
+  - Learn how to distribute a survey through Dynamics 365 for Marketing channels
+  - Clone, import, translate, close, stop or delete a survey
+
+  ### Module  3&#58; Results
+  In the Results module, you will review marketing event and survey insights.
+  #### Lessons
+  - Review event and survey results
+  After completing this module, you will be able to&#58;
+  - Utilize the event dashboard to assess the outcome of your events
+  - View the results of your surveys
