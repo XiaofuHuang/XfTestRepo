@@ -17,7 +17,7 @@ levels:
 - beginner
 roles:
 - developer
-relatedExams:
+exams:
 - uid: exam.ai-100
 - uid: exam.ai-403
 summary: |-
