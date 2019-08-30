@@ -17,7 +17,7 @@ levels:
 - beginner
 roles:
 - developer
-relatedExams:
+exams:
 - uid: exam.az-203
 - uid: exam.az-403
 summary: |-
