@@ -1,0 +1,74 @@
+### YamlMime:Course
+title: Course four
+metadata:
+  title: 'Course AI-100T01-A: Designing and Implementing an Azure AI Solution'
+  description: 'Course AI-100T01-A: Designing and Implementing an Azure AI Solution'
+uid: course.course-four
+courseNumber: 'AI-100T01-AA'
+hoursToComplete: 24
+iconUrl: /media/learn/certification/course.svg
+learningPartnersLink: https://www.microsoft.com/en-us/learning/partners.aspx
+retirementDate: 03/29/2022
+products:
+- azure-app-service
+locales:
+- en
+levels:
+- beginner
+roles:
+- developer
+exams:
+- uid: exam.ai-100
+- uid: exam.ai-403
+summary: |-
+  An Azure AI engineer works with Data Engineers and Data Scientists to analyze requirements for AI cloud-based and hybrid AI solutions and implements solutions. They are aware of the various compfournts that make up the Microsoft Azure AI portfolio and related open source frameworks and technologies. The engineer leverages their knowledge to recommend appropriate tools and technologies for a given solution. The engineer is aware of the available data storage options and uses their understanding of cost models, capacity, and best practices to architect and implement AI solutions.This course teaches the concepts of Azure AI engineering by presenting, and developing, a scenario that creates a customer support Bot that utilizes various tools and services in the Azure AI landscape like language understanding, QnA Maker, and various Azure Cognitive Services to implement language detection, text analytics, and computer vision.
+
+  #### Audience profile
+  This course is aimed at Cloud Solution Architects, Azure artificial intelligence designers, and AI developers.
+prerequisitesSection: |-
+  Before attending this course, students must have&#58;
+  - Azure Fundamentals
+  - Understanding of Azure storage technologies
+  - C# Knowledge
+outlineSection: |-
+  ### Module  1&#58; Introducing Azure Cognitive Services
+  The student will learn about the available Cognitive Services on Microsoft Azure and their role in architecting AI solutions.
+  #### Lessons
+  - Overview of Azure Cognitive Services
+  - Creating a Cognitive Service on the Azure Portal
+  - Access and Test a Cognitive Service
+
+  ### Module  2&#58; Creating Bots
+  The student will learn about the Microsoft Bot Framework and Bot Services.
+  #### Lessons
+  - Introducing the Bot Service
+  - Creating a Basic Chat Bot
+  - Testing with the Bot Emulator
+
+  ### Module  3&#58; Enhancing Bots with QnA Maker
+  The student will learn about the QnA Maker and how to integrate Bots and QnA Maker to build up a useful knowledge base for user interactions.
+  #### Lessons
+  - Introducing QnA Maker
+  - Implement a Knowledge Base with QnA Maker
+  - Integrate QnA with a Bot
+
+  ### Module  4&#58;  Learn How to Create Language Understanding Functionality with LUIS
+  The student will learn about LUIS and how to create intents and utterances to support a natural language processing solution.
+  #### Lessons
+  - Introducing Language Understanding
+  - Create a new LUIS Service
+  - Build Language Understanding with Intents and Utterances
+
+  ### Module  5&#58; Enhancing Your Bots with LUIS
+  The student will learn about integrating LUIS with a Bot to better understand the users’ intentions when interacting with the Bot.
+  #### Lessons
+  - Overview of language understanding for AI applications
+  - Integrate LUIS and Bot to create an AI-based solution
+
+  ### Module  6&#58; Integrate Cognitive Services with Bots and Agents
+  The student will learn about integrating Bots and Agents with Azure Cognitive Services for advanced features such as sentiment analysis, image and text analysis, and OCR and object detection.
+  #### Lessons
+  - Understand Cognitive Services for Bot Interactions
+  - Perform Sentiment Analysis for your Bot with Text Analytics
+  - Detect Language in a Bot with the Language Cognitive Services
+  - Integrate Computer Vision with Bots
