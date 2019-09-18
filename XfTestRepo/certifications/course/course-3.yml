@@ -28,7 +28,7 @@ levels:
 roles:
 - developer
 exams: 
-- uid: exam.98-401
+- uid: exam.DP-400
 summary: |-
   In this course you will learn about the architecture of the modern messaging infrastructure with Exchange Server and Exchange Online and how to
   deploy messaging in different scenarios and organizations. You will be guided through the initial deployment process and introduced to the messaging management

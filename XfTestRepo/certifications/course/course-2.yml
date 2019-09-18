@@ -23,7 +23,7 @@ levels:
 roles:
 - developer
 exams:
-- uid: exam.mb-220
+- uid: exam.98-401
 summary: |-
   This course will focus on setting up, managing, and configuring the events and surveys within Dynamics 365 for Marketing.
 
