@@ -19,7 +19,7 @@ roles:
 - developer
 exams:
 - uid: exam.az-203
-- uid: exam.98-401
+- uid: exam.98-402
 summary: |-
   In this course students will gain the knowledge and skills needed to include Azure authentication and authorization services in their development solutions. Students will learn how identity is managed and utilized in Azure solutions by using the Microsoft identity platform. Students will also learn about access control (claims-based authorization and role-based access control) and how to implement secure data solutions. Throughout the course students learn how to create and integrate these resources by using the Azure CLI, REST, and application code.
 
