@@ -1,11 +1,11 @@
 ### YamlMime:Course
-title: Update Set up events and surveys in Dynamics 365 for Marketing
+title: Set up events and surveys in Dynamics 365 for Marketing
 metadata:
   title: 'Course MB-220T02-A: Set up events and surveys in Dynamics 365 for Marketing'
   description: 'Course MB-220T02-A: Set up events and surveys in Dynamics 365 for Marketing'
 uid: course.mb-220t02
 courseNumber: 'MB-220T02-A'
-hoursToComplete: 248
+hoursToComplete: 24
 iconUrl: /media/learn/certification/course.svg
 skillsGained:
 - skill: Set up and manage event planning capabilities
@@ -24,7 +24,6 @@ roles:
 - developer
 exams:
 - uid: exam.98-401
-- uid: exam.az-1001
 summary: |-
   This course will focus on setting up, managing, and configuring the events and surveys within Dynamics 365 for Marketing.
 
