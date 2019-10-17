@@ -19,6 +19,7 @@ products:
 - azure
 - azure-clis
 - windows
+type: mos
 courses:
 - uid: course.course-two
 - uid: course.course-zero

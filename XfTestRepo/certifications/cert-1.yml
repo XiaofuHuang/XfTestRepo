@@ -21,6 +21,7 @@ products:
 - azure
 - azure-clis
 - windows
+type: fundamentals
 courses:
 - uid: course.course-one
 - uid: course.course-zero

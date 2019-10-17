@@ -21,6 +21,7 @@ products:
 - azure
 - azure-clis
 - windows
+type: mce
 courses:
 - uid: course.course-two
 - uid: course.course-zero
