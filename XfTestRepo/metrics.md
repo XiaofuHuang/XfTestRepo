@@ -5,8 +5,8 @@ In feature utilization, this telemetry is usually used to track the file level a
 For example, every single error thrown by build is rarely of interest because you can always get that info in build report.
 Instead a summary of errors happened every for example 1 minute is important. 
 
-Besides customDimensions, we also provide ��valueSum�� (?) attribute which is the sum of the measurement.
-For example, in last half hour, there are two records for build errors (?) and their ��valueSum�� are 20 and 30 separately, you can know based on that there are totally 50 errors thrown by build in last half hour.
+Besides customDimensions, we also provide "value" attribute which is the sum of the measurement.
+For example, in last half hour, there are two records for build errors and their "value" are 20 and 30 separately, you can know based on that there are totally 50 errors thrown by build in last half hour.
 
 ## Supported Metrics
 | Metric name | Description | Examples | All Properties |
