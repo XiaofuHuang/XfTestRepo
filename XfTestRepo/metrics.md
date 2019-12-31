@@ -26,4 +26,10 @@ For example, in last half hour, there are two records for build errors (?) and t
 
 
 ## All Properties
-{{PROPERTIES}}
+### BuildError Properties
+| Property name | Type |
+|---------------|------|
+|Properties|dynamic|
+
+
+
