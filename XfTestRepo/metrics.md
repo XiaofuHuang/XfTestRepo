@@ -17,10 +17,10 @@ For example, in last half hour, there are two records for build errors and their
 ## Examples
 ### Get error/warning/suggestion count for each build within 24 hours
 ```
-"querymetrics
+querymetrics
 | where name == \"test-builderror\"
 | where timestamp > now(-2d)
-| summarize sum(value) by errorlevel = tostring(customDimensions.errorlevel), buildid = tostring(customDimensions.buildid)"
+| summarize sum(value) by errorlevel = tostring(customDimensions.errorlevel), buildid = tostring(customDimensions.buildid)
 ```
 
 

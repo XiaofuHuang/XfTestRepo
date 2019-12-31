@@ -16,61 +16,61 @@ In feature utilization, we provide properties related to this event in customDim
 ## Examples
 ### Get build duration details for each commit build
 ```
-"queryevents
+queryevents
 | where EventName == "Commit.Publish.Complete"
 | extend JobBasicInfo = parse_json(tostring(Properties.JobBasicInfo))
-| project Repository = JobBasicInfo.repo_url, Branch = JobBasicInfo.branch_name, BuildType = JobBasicInfo.build_type, BuildAction = JobBasicInfo.build_action, EventName, Timestamp, WaitingTime = Metrics["build_perf.per_stage.waiting_in_queue"].sum, PrepareTime = Metrics["build_perf.per_stage.preparing"].sum, BuildTime = Metrics["build_perf.per_stage.building"].sum, PublishTime = Metrics["build_perf.per_stage.publishing"].sum"
+| project Repository = JobBasicInfo.repo_url, Branch = JobBasicInfo.branch_name, BuildType = JobBasicInfo.build_type, BuildAction = JobBasicInfo.build_action, EventName, Timestamp, WaitingTime = Metrics["build_perf.per_stage.waiting_in_queue"].sum, PrepareTime = Metrics["build_perf.per_stage.preparing"].sum, BuildTime = Metrics["build_perf.per_stage.building"].sum, PublishTime = Metrics["build_perf.per_stage.publishing"].sum
 
 ```
 
 ### Get build error type details for each pull request build
 ```
-"queryevents
+queryevents
 | where EventName == "PullRequest.Build.Complete"
 | extend JobBasicInfo = parse_json(tostring(Properties.JobBasicInfo))
-| project Repository = JobBasicInfo.repo_url, Branch = JobBasicInfo.branch_name, BuildType = JobBasicInfo.build_type, BuildAction = JobBasicInfo.build_action, EventName, Timestamp, SuggectionCount = Metrics["build_result.suggestion_count"].sum, ErrorCount = Metrics["build_result.error_count"].sum, WarningCount = Metrics["build_result.warning_count"].sum"
+| project Repository = JobBasicInfo.repo_url, Branch = JobBasicInfo.branch_name, BuildType = JobBasicInfo.build_type, BuildAction = JobBasicInfo.build_action, EventName, Timestamp, SuggectionCount = Metrics["build_result.suggestion_count"].sum, ErrorCount = Metrics["build_result.error_count"].sum, WarningCount = Metrics["build_result.warning_count"].sum
 
 ```
 
 ### Get published file details for each pull request build
 ```
-"queryevents
+queryevents
 | where EventName == "PullRequest.Publish.Complete"
 | extend JobBasicInfo = parse_json(tostring(Properties.JobBasicInfo))
-| project Repository = JobBasicInfo.repo_url, Branch = JobBasicInfo.branch_name, BuildType = JobBasicInfo.build_type, BuildAction = JobBasicInfo.build_action, EventName, Timestamp, PublishedResouceCount = Metrics["build_result.published_resource_count"].sum, PublishedContentCount = Metrics["build_result.published_content_count"].sum, PublishedTocCount = Metrics["build_result.published_toc_count"].sum, PublishedTotalCount = Metrics["build_result.published_file_count"].sum"
+| project Repository = JobBasicInfo.repo_url, Branch = JobBasicInfo.branch_name, BuildType = JobBasicInfo.build_type, BuildAction = JobBasicInfo.build_action, EventName, Timestamp, PublishedResouceCount = Metrics["build_result.published_resource_count"].sum, PublishedContentCount = Metrics["build_result.published_content_count"].sum, PublishedTocCount = Metrics["build_result.published_toc_count"].sum, PublishedTotalCount = Metrics["build_result.published_file_count"].sum
 
 ```
 
 ### Get Commit Build report, incremental and version info
 ```
-"queryevents
+queryevents
 | where EventName == "Commit.Publish.Report"
 | extend JobBasicInfo = parse_json(tostring(Properties.JobBasicInfo))
 | extend isIncremental = Properties.full_build_reason_code == 'NoReason'
 | extend docfxVersion = Properties.docfx_version
-| project Properties.build_report_url, isIncremental, docfxVersion, JobBasicInfo.build_id, JobBasicInfo.repo_id, JobBasicInfo.branch_name"
+| project Properties.build_report_url, isIncremental, docfxVersion, JobBasicInfo.build_id, JobBasicInfo.repo_id, JobBasicInfo.branch_name
 
 ```
 
 ### Get Pull Request Build report, incremental and version info
 ```
-"queryevents
+queryevents
 | where EventName == "PullRequest.Build.Report"
 | extend JobBasicInfo = parse_json(tostring(Properties.JobBasicInfo))
 | extend isIncremental = Properties.full_build_reason_code == 'NoReason'
 | extend docfxVersion = Properties.docfx_version
-| project Properties.build_report_url, isIncremental, docfxVersion, JobBasicInfo.build_id, JobBasicInfo.repo_id, JobBasicInfo.branch_name"
+| project Properties.build_report_url, isIncremental, docfxVersion, JobBasicInfo.build_id, JobBasicInfo.repo_id, JobBasicInfo.branch_name
 
 ```
 
 ### Get Build report, incremental and version info
 ```
-"queryevents
+queryevents
 | where EventName == "PullRequest.Publish.Report"
 | extend JobBasicInfo = parse_json(tostring(Properties.JobBasicInfo))
 | extend isIncremental = Properties.full_build_reason_code == 'NoReason'
 | extend docfxVersion = Properties.docfx_version
-| project Properties.build_report_url, isIncremental, docfxVersion, JobBasicInfo.build_id, JobBasicInfo.repo_id, JobBasicInfo.branch_name"
+| project Properties.build_report_url, isIncremental, docfxVersion, JobBasicInfo.build_id, JobBasicInfo.repo_id, JobBasicInfo.branch_name
 
 ```
 
@@ -203,12 +203,12 @@ In feature utilization, we provide properties related to this event in customDim
 ### Commit.Publish.Complete Metrics
 | Metric name | Type |
 |-------------|------|
-|build_result.error_count.per_type.user|dynamic|
-|build_result.total_resource_count|dynamic|
-|build_result.total_file_count|dynamic|
 |build_result.published_resource_count|dynamic|
 |build_perf.per_stage.publishing|dynamic|
 |build_perf.waiting_time|dynamic|
+|build_result.error_count.per_type.user|dynamic|
+|build_result.total_resource_count|dynamic|
+|build_result.total_file_count|dynamic|
 |build_result.suggestion_count|dynamic|
 |build_result.suggestion_count.per_type.unspecified|dynamic|
 |build_result.published_toc_count|dynamic|
