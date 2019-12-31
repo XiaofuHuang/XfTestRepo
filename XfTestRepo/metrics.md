@@ -27,9 +27,5 @@ For example, in last half hour, there are two records for build errors (?) and t
 
 ## All Properties
 ### BuildError Properties
-| Property name | Type |
-|---------------|------|
-|Properties|dynamic|
-
-
+Empty
 
