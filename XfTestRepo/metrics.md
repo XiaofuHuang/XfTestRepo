@@ -11,21 +11,80 @@ For example, in last half hour, there are two records for build errors and their
 ## Supported Metrics
 | Metric name | Description | Examples | All Properties |
 |-------------|-------------|----------|----------------|
-|BuildError|A summary of errors/warnings/suggestions happened during a particular time period|[Get error/warning/suggestion count for each build within 24 hours](#get-errorwarningsuggestion-count-for-each-build-within-24-hours)|[Detail](#builderror-properties)|
+|statuscode|The validation result in Broken Link Service|[Get broken links count per run](#get-broken-links-count-per-run)|[Detail](#statuscode-properties)|
+|linktotal|The validated link count in Broken Link Service|[Get validated links count per run](#get-validated-links-count-per-run)|[Detail](#linktotal-properties)|
+|depotcount|The depot count in Broken Link Service|[Get depot count per run](#get-depot-count-per-run)|[Detail](#depotcount-properties)|
 
 
 ## Examples
-### Get error/warning/suggestion count for each build within 24 hours
+### Get broken links count per run
 ```
 querymetrics
-| where name == \"test-builderror\"
-| where timestamp > now(-2d)
-| summarize sum(value) by errorlevel = tostring(customDimensions.errorlevel), buildid = tostring(customDimensions.buildid)
+| where MetricName == "statuscode" and Properties.code <> "OK"
+| summarize badLinkCount = sum(Value) by runid = tostring(Properties.runid)
+
+```
+
+### Get validated links count per run
+```
+querymetrics
+| where MetricName == "linktotal"
+| summarize linkCount = sum(Value) by runid = tostring(Properties.runid)
+
+```
+
+### Get depot count per run
+```
+querymetrics
+| where MetricName == "depotcount"
+| summarize depotCount = sum(Value) by runid = tostring(Properties.runid)
+
 ```
 
 
 
 ## All Properties
-### BuildError Properties
-Empty
+### statuscode Properties
+| Property name | Type |
+|---------------|------|
+|_MS.AggregationIntervalMs|string|
+|runid|guid|
+|ProcessId|string|
+|locale|string|
+|InvocationId|guid|
+|LogLevel|string|
+|Category|string|
+|branch|string|
+|depot|string|
+|host|dynamic|
+|type|string|
+|code|string|
+
+
+### linktotal Properties
+| Property name | Type |
+|---------------|------|
+|_MS.AggregationIntervalMs|string|
+|runid|guid|
+|ProcessId|string|
+|locale|string|
+|InvocationId|guid|
+|LogLevel|string|
+|Category|string|
+|branch|string|
+|depot|string|
+
+
+### depotcount Properties
+| Property name | Type |
+|---------------|------|
+|runid|guid|
+|ProcessId|string|
+|_MS.AggregationIntervalMs|string|
+|InvocationId|guid|
+|LogLevel|string|
+|Category|string|
+|runtype|string|
+
+
 

@@ -85,38 +85,20 @@ queryevents
 |JobBasicInfo|string|
 |CorrelationId|string|
 |ServiceName|string|
-|build_status|string|
-|RoleInstance|string|
+|ImageName|string|
 |RoleFlag|string|
-|build_message|string|
+|NodeName|string|
+|PodName|string|
+|build_status|string|
 |priority|string|
 |branch|string|
 |tags|string|
-|ImageName|string|
-|NodeName|string|
-|PodName|string|
+|build_message|string|
+|RoleInstance|string|
 
 
 ### PullRequest.Build.Complete Properties
-| Property name | Type |
-|---------------|------|
-|build_log_url|string|
-|build_report_url|string|
-|JobBasicInfo|string|
-|CorrelationId|string|
-|build_status|string|
-|RoleInstance|string|
-|ServiceName|string|
-|RoleFlag|string|
-|priority|string|
-|branch|string|
-|tags|string|
-|build_message|string|
-|ImageName|string|
-|NodeName|string|
-|PodName|string|
-
-
+Empty
 ### PullRequest.Publish.Complete Properties
 | Property name | Type |
 |---------------|------|
@@ -124,17 +106,16 @@ queryevents
 |build_report_url|string|
 |JobBasicInfo|string|
 |CorrelationId|string|
-|build_status|string|
-|RoleInstance|string|
 |ServiceName|string|
-|RoleFlag|string|
-|priority|string|
-|branch|string|
-|build_message|string|
-|tags|string|
 |ImageName|string|
+|RoleFlag|string|
 |NodeName|string|
 |PodName|string|
+|build_status|string|
+|build_message|string|
+|priority|string|
+|branch|string|
+|tags|string|
 
 
 ### Commit.Publish.Report Properties
@@ -145,38 +126,20 @@ queryevents
 |JobBasicInfo|string|
 |CorrelationId|string|
 |ServiceName|string|
+|incremental_infos|string|
 |ImageName|string|
 |RoleFlag|string|
 |NodeName|string|
 |PodName|string|
+|markdown_engine_name|string|
+|validation_rule|string|
 |full_build_reason_code|string|
 |docfx_version|string|
-|validation_rule|string|
-|incremental_infos|string|
-|markdown_engine_name|string|
 |RoleInstance|string|
 
 
 ### PullRequest.Build.Report Properties
-| Property name | Type |
-|---------------|------|
-|build_log_url|string|
-|build_report_url|string|
-|JobBasicInfo|string|
-|CorrelationId|string|
-|RoleInstance|string|
-|ServiceName|string|
-|markdown_engine_name|string|
-|incremental_infos|string|
-|RoleFlag|string|
-|validation_rule|string|
-|full_build_reason_code|string|
-|docfx_version|string|
-|ImageName|string|
-|NodeName|string|
-|PodName|string|
-
-
+Empty
 ### PullRequest.Publish.Report Properties
 | Property name | Type |
 |---------------|------|
@@ -184,15 +147,10 @@ queryevents
 |build_report_url|string|
 |JobBasicInfo|string|
 |CorrelationId|string|
-|RoleInstance|string|
 |ServiceName|string|
-|markdown_engine_name|string|
 |incremental_infos|string|
-|RoleFlag|string|
-|validation_rule|string|
-|full_build_reason_code|string|
-|docfx_version|string|
 |ImageName|string|
+|RoleFlag|string|
 |NodeName|string|
 |PodName|string|
 
@@ -203,69 +161,38 @@ queryevents
 ### Commit.Publish.Complete Metrics
 | Metric name | Type |
 |-------------|------|
-|build_result.published_resource_count|dynamic|
-|build_perf.per_stage.publishing|dynamic|
-|build_perf.waiting_time|dynamic|
-|build_result.error_count.per_type.user|dynamic|
-|build_result.total_resource_count|dynamic|
-|build_result.total_file_count|dynamic|
-|build_result.suggestion_count|dynamic|
-|build_result.suggestion_count.per_type.unspecified|dynamic|
-|build_result.published_toc_count|dynamic|
-|build_result.suggestion_count.per_type.system|dynamic|
-|build_perf.per_stage.waiting_in_queue|dynamic|
-|build_result.warning_count|dynamic|
-|build_result.publish_cache_hit_count|dynamic|
-|build_result.warning_count.per_type.system|dynamic|
-|build_perf.per_stage.preparing|dynamic|
-|build_result.docset_count|dynamic|
-|build_result.warning_count.per_type.unspecified|dynamic|
-|build_result.suggestion_count.per_type.user|dynamic|
-|build_result.error_count|dynamic|
-|build_result.error_count.per_type.unspecified|dynamic|
 |build_perf.processing_time|dynamic|
 |build_result.warning_count.per_type.user|dynamic|
-|build_result.published_file_count|dynamic|
-|build_result.error_count.per_type.system|dynamic|
+|build_perf.per_stage.waiting_in_queue|dynamic|
+|build_result.suggestion_count.per_type.system|dynamic|
+|build_result.published_toc_count|dynamic|
+|build_result.suggestion_count.per_type.unspecified|dynamic|
+|build_result.suggestion_count.per_type.user|dynamic|
+|build_result.warning_count.per_type.unspecified|dynamic|
 |build_result.total_toc_count|dynamic|
-|build_perf.per_stage.building|dynamic|
+|build_result.error_count.per_type.system|dynamic|
+|build_result.error_count.per_type.unspecified|dynamic|
+|build_result.warning_count.per_type.system|dynamic|
+|build_result.error_count.per_type.user|dynamic|
+|build_perf.per_stage.publishing|dynamic|
+|build_result.published_resource_count|dynamic|
+|build_result.warning_count|dynamic|
+|build_result.publish_cache_hit_count|dynamic|
 |build_result.published_content_count|dynamic|
+|build_result.published_file_count|dynamic|
+|build_result.total_resource_count|dynamic|
 |build_result.total_content_count|dynamic|
+|build_perf.per_stage.preparing|dynamic|
+|build_result.total_file_count|dynamic|
+|build_perf.per_stage.building|dynamic|
+|build_result.suggestion_count|dynamic|
+|build_result.docset_count|dynamic|
+|build_result.error_count|dynamic|
+|build_perf.waiting_time|dynamic|
 
 
 ### PullRequest.Build.Complete Metrics
-| Metric name | Type |
-|-------------|------|
-|build_perf.processing_time|dynamic|
-|build_result.warning_count.per_type.user|dynamic|
-|build_perf.per_stage.waiting_in_queue|dynamic|
-|build_result.suggestion_count.per_type.system|dynamic|
-|build_result.published_toc_count|dynamic|
-|build_result.suggestion_count.per_type.unspecified|dynamic|
-|build_result.suggestion_count.per_type.user|dynamic|
-|build_result.warning_count.per_type.unspecified|dynamic|
-|build_result.total_toc_count|dynamic|
-|build_result.error_count.per_type.system|dynamic|
-|build_result.error_count.per_type.unspecified|dynamic|
-|build_result.warning_count.per_type.system|dynamic|
-|build_result.error_count.per_type.user|dynamic|
-|build_perf.per_stage.publishing|dynamic|
-|build_result.published_resource_count|dynamic|
-|build_result.warning_count|dynamic|
-|build_result.publish_cache_hit_count|dynamic|
-|build_result.published_content_count|dynamic|
-|build_result.published_file_count|dynamic|
-|build_result.total_resource_count|dynamic|
-|build_result.total_content_count|dynamic|
-|build_perf.per_stage.preparing|dynamic|
-|build_result.total_file_count|dynamic|
-|build_perf.per_stage.building|dynamic|
-|build_result.suggestion_count|dynamic|
-|build_result.docset_count|dynamic|
-|build_result.error_count|dynamic|
-|build_perf.waiting_time|dynamic|
-
-
+Empty
 ### PullRequest.Publish.Complete Metrics
 | Metric name | Type |
 |-------------|------|
